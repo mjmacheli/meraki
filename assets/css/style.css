@@ -713,11 +713,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     max-width: 100%;
 }
 .service-bg-banner-img{
- 
     background: rgba(255,255,255,0);
-    background-image: url(../images/business.jpg);
+    background-image: url(../images/service.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
