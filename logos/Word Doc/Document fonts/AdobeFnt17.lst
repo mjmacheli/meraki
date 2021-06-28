@@ -1,0 +1,75 @@
+%!Adobe-FontList 1.17
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TextaNarrowAlt-Book
+FamilyName:Texta Narrow Alt
+StyleName:Book
+MenuName:Texta Narrow Alt Book
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:Texta Narrow Alt Book
+WritingScript:Roman
+OutlineFileName:\textanarrowalt-book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:45240
+FileModTime:1428851716
+NameArray:0,Mac,4,Texta Narrow Alt Book
+NameArray:0,Win,1,Texta Narrow Alt Book
+NameArray:0,Win,16,Texta Narrow Alt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:VitesseSans-Book
+FamilyName:Vitesse Sans
+StyleName:Book
+MenuName:Vitesse Sans Book
+StyleBits:0
+WeightClass:325
+WidthClass:5
+AngleClass:0
+FullName:Vitesse Sans Book
+WritingScript:Roman
+OutlineFileName:\VitesseSans-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:104656
+FileModTime:1268770610
+NameArray:0,Mac,4,Vitesse Sans Book
+NameArray:0,Win,1,Vitesse Sans Book
+NameArray:0,Win,16,Vitesse Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:VitesseSans-Medium
+FamilyName:Vitesse Sans
+StyleName:Medium
+MenuName:Vitesse Sans Medium
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:Vitesse Sans Medium
+WritingScript:Roman
+OutlineFileName:\VitesseSans-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:104636
+FileModTime:1268770616
+NameArray:0,Mac,4,Vitesse Sans Medium
+NameArray:0,Win,1,Vitesse Sans Medium
+NameArray:0,Win,16,Vitesse Sans
+%EndFont
+
