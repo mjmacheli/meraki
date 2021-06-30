@@ -26,8 +26,6 @@ h2, h3{
 
 .social-icons{
   color: #e07525;
-  
-
 }
 
 .f-heading {
@@ -666,6 +664,7 @@ img{
 }
 
 .about_left_text p{
+  color: #fff;
   margin: 25px 0px;
   line-height: 35px;
 }
@@ -1091,29 +1090,28 @@ section{
 
 .main-h{
   margin-top: 20vh;
-  justify-items: center;
   color: #fff;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   margin-left: 17%;
   -webkit-animation-delay: 150ms;
   animation-delay: 150ms;
   visibility: visible;
-  padding-bottom:11rem;
+  /* padding-bottom:11rem; */
 }
 
-.main-h2{
-    
+.main-sub{
+  text-transform: uppercase;
+  margin-left: 17%;
+  margin-bottom: 30px;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
   visibility: visible;
-    animation-name:fadeInUp;
-    margin-bottom: 30px;
-    -webkit-animation-delay: 200ms;
-    animation-delay: 200ms;
-    visibility: visible;
-    animation-name:fadeInUp;
+  animation-name:fadeInUp;
+  color: #e07525;
   }
   .main-h3{
-visibility: visible;
+    visibility: visible;
     animation-name:fadeInUp;
   }
 
@@ -1127,7 +1125,6 @@ visibility: visible;
     outline: none !important;
     box-shadow: none;
     border: 0;
-    color: #222222;
     position: relative;
     z-index: 2;
     padding: 0;
@@ -1373,17 +1370,6 @@ iframe{
 
 .about_banner_mb_50{
   margin-bottom: 50px;
-}
-.about_left_text_top p{
-    
-    color: #b4becc;
-    line-height: 35px;
-    margin-top: 35px;
-}
-.about_left_text_top h1{
-    
-    margin-top: 20px;
-    color: #36415f;
 }
 .img_radius{
   border-radius: 10px;  
