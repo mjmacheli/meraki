@@ -607,6 +607,15 @@ padding: 120px 0px;
     width: 100%;
 }
 
+.overlay-all2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, #e076254d, transparent);
+}
+
 img{
   vertical-align: middle;
   max-width: 100%;
@@ -653,10 +662,10 @@ img{
 
 
 .about_left_text{
-    background: #e07525;
-    padding: 30px;
-    margin: 60px 0px;
-    box-shadow: -5px 15px 50px #00000085 !important;
+  background: #e07525;
+  padding: 30px;
+  margin: 60px 0px;
+  box-shadow: -5px 15px 50px #00000085 !important;
 }
 
 .about_left_text h1{
@@ -1108,7 +1117,7 @@ section{
   animation-delay: 200ms;
   visibility: visible;
   animation-name:fadeInUp;
-  color: #e07525;
+  color: #fff;
   }
   .main-h3{
     visibility: visible;
