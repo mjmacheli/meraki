@@ -613,7 +613,7 @@ padding: 120px 0px;
     top: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(to right, #e076254d, transparent);
+    background-image: linear-gradient(to right, #e07625 20%, transparent, transparent);
 }
 
 img{
