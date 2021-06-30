@@ -38,7 +38,6 @@ h2, h3{
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  
   line-height: 1.42857143;
   text-align: center;
   vertical-align: middle;
@@ -1081,18 +1080,18 @@ section{
 }
 
 .main-h{
-    margin-top: 20vh;
-    justify-items: center;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    margin-left: 17%;
-    -webkit-animation-delay: 150ms;
-    animation-delay: 150ms;
-    visibility: visible;
-    padding-bottom:11rem;
-    
+  margin-top: 20vh;
+  justify-items: center;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 17%;
+  -webkit-animation-delay: 150ms;
+  animation-delay: 150ms;
+  visibility: visible;
+  padding-bottom:11rem;
 }
+
 .main-h2{
     
   visibility: visible;
@@ -1662,12 +1661,14 @@ img.filter-img{
 }
 
 
-.ml12 {
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
 
-.ml12 .letter {
+.ml15 .word {
   display: inline-block;
   line-height: 1em;
 }
@@ -1676,6 +1677,17 @@ img.filter-img{
   display: none;
 }
 
+.ml13 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 
 #banner-text{
   height: 45vh;
