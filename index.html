@@ -13,8 +13,6 @@
       <link href="assets/vendors/animate/animate.css" rel="stylesheet">
       <!-- Icon CSS-->
       <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css">
-      <!-- Camera Slider -->
-      <link rel="stylesheet" href="assets/vendors/camera-slider/camera.css">
       <!-- Owlcarousel CSS-->
       <link rel="stylesheet" type="text/css" href="assets/vendors/owl_carousel/owl.carousel.css" media="all">
       <!--Template Styles CSS-->
@@ -45,54 +43,43 @@
                         </ul>
                         
                      </div>
-                     <!-- end header-nav__content -->
                   </nav>
-                  <!-- end header-nav -->
                   <a class="header-menu-toggle" href="#0">
                   <span class="header-menu-icon"></span>
                   </a>
                </header>
-               <!-- end s-header -->
-               <!-- End Header_Area -->
-               <!-- #banner start -->
+            
                <section id="banner" class=" mb-90">
                   <div class="container ">
                      <div class="row">
-                        <!-- #banner-text start -->            
-                        <div id="banner-text" class="col-md-7 text-c text-left ">
-                           <br>
-                           <br>
-                           <h1 class="wow fadeInUp main-h" data-wow-delay="0.2s">Welcome to <br>cloud-first everything</h1>
-                           <br>
-                           <br>
-                           <br>
+                        <div id="banner-text" class="col-md-8 text-c text-left ">
+                           <h1 class="main-h ml12" data-wow-delay="0.2s">Welcome<br>to cloud-first everything</h1>
                         </div>
-                        <!-- /#banner-text End -->
                      </div>
                   </div>
                </section>
-               <div class="container-fluid p0 banner-shap-img">
-               </div>
+            
             </div>
          </div>
+         
       
-         <div  id="about"  class="py-70 about-section">
-            <div class="container About-right-bg-img">
-               <div class="row text-left  ">
-                  <div class="col-md-7">
-                     <div class="about_left_text wow fadeInUp">
-                        <h3 class="f-heading">Let’s start with your business…</h3>
-                        <p>Right out of the box, Cisco Meraki enables you to accelerate your business evolution through easy-to-use cloud
-                        networking technologies that deliver secure customer experiences and exceed employee expectations</p>
-                        
+            <div  id="about"  class="py-70 about-section">
+               <div class="container About-right-bg-img">
+                  <div class="row text-left  ">
+                     <div class="col-md-7">
+                        <div class="about_left_text wow fadeInUp">
+                           <h3 class="f-heading">Let’s start with your business…</h3>
+                           <p>Right out of the box, Cisco Meraki enables you to accelerate your business evolution through easy-to-use cloud
+                           networking technologies that deliver secure customer experiences and exceed employee expectations</p>
+                           
+                        </div>
                      </div>
+                  
                   </div>
-                 
                </div>
             </div>
+         
          </div>
-        
-      </div>
      
                <div class="container-fluid ">
                   <div class="row text-left about_row clip-polygon_right ">
@@ -302,11 +289,33 @@
             </div>
          </div>
       </div>
-      
-      <!-- /.hero__overlay -->
+   
       <!-- jQuery JS -->
       <script src="assets/js/jquery-1.12.0.min.js"></script>
       <script src="assets/vendors/popup/lightbox.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script  type="text/javascript">
+         var textWrapper = document.querySelector('.ml12');
+            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            anime.timeline({ loop: true })
+               .add({
+                  targets: '.ml12 .letter',
+                  translateX: [40, 0],
+                  translateZ: 0,
+                  opacity: [0, 1],
+                  easing: "easeOutExpo",
+                  duration: 1200,
+                  delay: (el, i) => 500 + 30 * i
+               }).add({
+                  targets: '.ml12 .letter',
+                  translateX: [0, -30],
+                  opacity: [1, 0],
+                  easing: "easeInExpo",
+                  duration:3000,
+                  delay: (el, i) => 100 + 30 * i
+               });
+      </script>
       <script type="text/javascript">
          $(document).ready(function() {
          $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
@@ -319,26 +328,6 @@
          });
          });
       </script> 
-      <script type="text/javascript">
-         $(document).ready(function(){
-           $(".currency_year").hide();
-             $("#radio1").click(function(){
-                 $(".currency_year").hide();
-                 $(".currency_month").show();
-             });
-             $("#radio2").click(function(){
-                 $(".currency_month").hide();
-                 $(".currency_year").show();
-             });
-         });
-         
-          $('.tabs_label').click(function(){
-                      $('.tabs_label').removeClass('active_t');
-                      $(this).addClass('active_t');
-         
-                  })
-               
-      </script>
       <!-- Bootstrap JS -->
       <script src="assets/js/bootstrap.min.js"></script>
       <!-- Animate JS -->
