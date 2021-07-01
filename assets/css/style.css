@@ -605,7 +605,6 @@ padding: 120px 0px;
     top: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(to right, #e07625 15%, transparent, transparent);
 }
 
 .overlay-all2 {
@@ -616,6 +615,7 @@ padding: 120px 0px;
     width: 100%;
     background-image: linear-gradient(to right, #e07625 15%, transparent, transparent);
 }
+
 
 img{
   vertical-align: middle;
