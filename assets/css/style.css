@@ -118,9 +118,9 @@ h2, h3{
   transition-timing-function: ease-out;
 }
 .btn-primary:hover:before, .btn-primary:focus:before {
-    transform: scaleY(1);
-    color: #fff !important;
-    border-radius: 5px;
+  transform: scaleY(1);
+  color: #fff !important;
+  border-radius: 5px;
 }
 
 .btn_text_cap{
@@ -590,7 +590,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 .service-bg-banner-img1{
-  background-image: url(../images/pexels-2438928.jpg);
+  background-image: url(../images/slider4.png);
   background-repeat: no-repeat;
   background-position: center center;
   /* background-size: 100vw 100vh; */
@@ -600,7 +600,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 .service-bg-banner-img{
-  background-image: url(../images/pexels-stanley-ng-4390162.jpg);
+  background-image: url(../images/slider3.png);
   background-repeat: no-repeat;
   background-position: center center;
   /* background-size: 100vw 100vh; */
@@ -622,20 +622,21 @@ padding: 120px 0px;
 }
 
 .overlay-all {
-    position: relative;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #e07625,rgba(77,139,63) 15%, transparent, transparent);
 }
 
 .overlay-all2 {
-    position: relative;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    background-image: linear-gradient(to right, #e07625 15%, transparent, transparent);
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #e07625 15%, transparent, transparent);
 }
 
 
@@ -1035,7 +1036,7 @@ position: relative;
     -o-transform: skew(8deg);
 }
 .About-right-bg-img {
-  background: url(../images/images/customer.png) right center no-repeat;
+  background: url(../images/customer.png) right center no-repeat;
 }
   
 
