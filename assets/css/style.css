@@ -143,7 +143,7 @@ a {
 /* Section Title*/
 .title {
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .title h2 {
   text-transform: capitalize;
@@ -160,7 +160,7 @@ a {
   padding-top: 55px;
 }
 .subtitle h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   position: relative;
   margin-bottom: 20px;
 }
