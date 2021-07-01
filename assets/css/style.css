@@ -621,6 +621,14 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 padding: 120px 0px;
 }
 
+.overlay-home {
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .overlay-all {
   position: relative;
   left: 0;
