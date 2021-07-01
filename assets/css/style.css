@@ -4,16 +4,41 @@
 /* #f5f9fc */
 /*Color Variables*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400&display=swap');
+@font-face {
+  font-family: GraublauWeb;
+  src: url("../FONT/Vitesse/VitesseSans-Book.otf") format("opentype"), 
+      url('../FONT/Vitesse/VitesseSans-Medium.otf'),
+      url('../FONT/Vitesse/VitesseSans-MediumItalic.otf');
+}
+
 /* ::selection {
   background-color:#f5f9fc;
   color: #FFF
 } */
 
-*{
-  font-family: 'Roboto', sans-serif;
+/* *{
+  
+} */
+
+h1, h2, h3, h4, h5{
+  font-family: 'Vitesse/VitesseSans-Medium' !important;
 }
 
+h1{
+  font-size: 38pt !important;
+}
+
+h2 {
+  font-size: 16pt !important;
+}
+
+h3 {
+ font-size: 16pt !important;
+}
+
+p {
+  font-size: 12pt !important;
+}
 
 h2, h3{
   color: #e07525;
@@ -63,60 +88,57 @@ h2, h3{
 
 
 .btn{
- padding: 18px 28px;
-    
-    border-radius:5px;
-    text-decoration: none !important;
-    display: inline-block;
-    border: 0;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 2;
-    -webkit-transform: skew(-8deg);
- -moz-transform: skew(-8deg);
- -o-transform: skew(-8deg);
+  padding: 18px 28px;
+  border-radius:5px;
+  text-decoration: none !important;
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  -webkit-transform: skew(-8deg);
+  -moz-transform: skew(-8deg);
+  -o-transform: skew(-8deg);
 }
 
    
 .btn-primary:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    right: 0;
-    transform: scaleY(0);
-    transform-origin: 50%;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: 50%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 .btn-primary:hover:before, .btn-primary:focus:before {
     transform: scaleY(1);
     color: #fff !important;
     border-radius: 5px;
 }
+
 .btn_text_cap{
   text-transform: capitalize !important;
   padding: 12px 28px;
 }
 .btn_bg_f{
   background:#fff !important;
-  color:#000 !important;
 }
+
 .btn_bg_f:hover{
   color:#fff !important;
 }
+
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
-/*----------------------------------
-   2. Headings
-------------------------------------*/
 
 /* Section Title*/
 .title {
@@ -530,7 +552,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 
-
 /* header area 2*/
 /*--------------------------------------------------*/
 
@@ -839,49 +860,18 @@ padding-right:90px;
     filter: grayscale(100%)
 }
 
-.back-right-text-c{
-  padding-top: 80px;
+.back-right-text-d{
   background: #f4f9fb!important ;
-  background-image: linear-gradient(to bottom,#f4f9fb83,rgba(255, 255, 255, 0.815)),url("../images/connected-bg.png")!important;
-
+  background-image: linear-gradient(to right,rgba(255, 255, 255, 0.815),transparent),url("../images/connected-bg.png")!important;
 }
-
-  .back-right-text-d{
-    background: #f4f9fb!important ;
-    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.815),transparent),url("../images/connected-bg.png")!important;
- }
 
 
  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("../../media/examples/lizard.png"); */
 .pricingTable{
-    text-align: center;
+  text-align: center;
 }
 .mt-50{
   margin-top: 40px !important;
-}
-.tebel-color.pricingTable .pricingTable-header{
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    padding:60px 0;
-    background:#7a90ff;
-    position: relative;
-    transition: all 0.3s ease 0s;
-}
-.pricingTable .pricingTable-header {
-    padding: 40px 0;
-   background: #6871f4;
-    position: relative;
-    transition: all 0.3s ease 0s;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-}
-
-.pricingTable .pricingTable-header:before{
-  left: 40px;
-}
-.pricingTable .pricingTable-header:after{
-  right: 40px;
 }
 .pricingTable .heading{
   text-transform: capitalize;
@@ -1108,7 +1098,6 @@ section{
   -webkit-animation-delay: 150ms;
   animation-delay: 150ms;
   visibility: visible;
-  /* padding-bottom:11rem; */
 }
 
 .main-sub{
