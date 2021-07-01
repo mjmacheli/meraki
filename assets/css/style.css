@@ -635,7 +635,7 @@ padding: 120px 0px;
   top: 0;
   bottom: 0;
   width: 100%;
-  background-image: linear-gradient(to right, #e07625,rgba(77,139,63) 15%, transparent, transparent);
+  background-image: linear-gradient(to right, #e07625 15%, transparent, transparent);
 }
 
 .overlay-all2 {
@@ -1375,7 +1375,7 @@ iframe{
 16.about_page_css_start
 ------------------------------------*/
 
-.about_text{color:#e07525;}
+/* .about_text{color:#e07525;} */
 
 .about_banner_mb_50{
   margin-bottom: 50px;
