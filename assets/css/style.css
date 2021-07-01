@@ -7,8 +7,8 @@
 @font-face {
   font-family: GraublauWeb;
   src: url("../FONT/Vitesse/VitesseSans-Book.otf") format("opentype"), 
-      url('../FONT/Vitesse/VitesseSans-Medium.otf'),
-      url('../FONT/Vitesse/VitesseSans-MediumItalic.otf');
+      url('../FONT/Vitesse/VitesseSans-Medium.otf') format("opentype"),
+      url('../FONT/Vitesse/VitesseSans-MediumItalic.otf') format("opentype");
 }
 
 /* ::selection {
