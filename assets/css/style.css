@@ -1124,7 +1124,7 @@ section{
   color: #fff;
   text-align: left;
   text-transform: uppercase;
- margin-left: 10%;
+  margin-left: 10%;
   -webkit-animation-delay: 150ms;
   animation-delay: 150ms;
   visibility: visible;
@@ -1134,6 +1134,7 @@ section{
   text-transform: uppercase;
   margin-left: 17%;
   margin-bottom: 30px;
+  text-align: left;
   -webkit-animation-delay: 200ms;
   animation-delay: 200ms;
   visibility: visible;
@@ -1312,9 +1313,10 @@ iframe{
  }
 
 
-@media (min-width: 576px) {
-
- 
+@media (max-width: 576px) {
+  .main-sub{
+    display: none;
+  }
 
   .main-h{
     width: 90vw !important;
@@ -1322,13 +1324,13 @@ iframe{
     color: #fff;
     text-align: left;
     text-transform: uppercase;
-    margin-left: 7%;
+    margin-left: 3%;
     -webkit-animation-delay: 150ms;
     animation-delay: 150ms;
     visibility: visible;
   }
   #banner-text{
-     width: 90vw !important;
+    width: 90vw !important;
   }
  }
 
