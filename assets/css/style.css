@@ -1091,7 +1091,7 @@ section{
   color: #fff;
   text-align: left;
   text-transform: uppercase;
-  margin-left: 10%;
+  margin-left: 9vw;
   -webkit-animation-delay: 150ms;
   animation-delay: 150ms;
   visibility: visible;
@@ -1292,7 +1292,7 @@ padding-bottom: 90px;
 
   .main-h{
     width: 90vw !important;
-    margin-top: 40vh;
+    margin-top: 30vh;
     color: #fff;
     text-align: left;
     text-transform: uppercase;
@@ -1447,11 +1447,20 @@ border-left: 10px solid #ffaa00 !important;
 }
 
 }
+
+@media (max-width: 800px) {
+  .main-h{
+    margin-left: 5%;
+  }
+  .main-sub{
+  margin-left: 5%;
+}
+}
   
 @media (max-width: 767px) {
 
-  .main-h{
-  margin-top: 10vh;
+.main-h{
+  margin-top: 15vh;
   color: #fff;
   text-align: left;
   text-transform: uppercase;
