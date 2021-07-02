@@ -4,24 +4,16 @@
 /* #f5f9fc */
 /*Color Variables*/
 
-@font-face {
-  font-family: GraublauWeb;
-  src: url("../FONT/Vitesse/VitesseSans-Book.otf") format("opentype"), 
-      url('../FONT/Vitesse/VitesseSans-Medium.otf') format("opentype"),
-      url('../FONT/Vitesse/VitesseSans-MediumItalic.otf') format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
 
-/* ::selection {
+::selection {
   background-color:#f5f9fc;
   color: #FFF
-} */
+}
 
-/* *{
-  
-} */
 
 h1, h2, h3, h4, h5{
-  font-family: 'Vitesse/VitesseSans-Medium' !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1{
@@ -38,6 +30,7 @@ h3 {
 
 p {
   font-size: 12pt !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2, h3{
@@ -251,7 +244,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
  * ------------------------------------------------------------------- */
 .header-nav {
   z-index: 900;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.846;
   padding: 3.6rem 3rem 3.6rem 3.6rem;
   height: 100%;
@@ -304,7 +297,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 .header-nav__list {
-  font-family: "metropolis-regular", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 3.6rem 0 3rem 0;
   padding: 0 0 1.8rem 0;
   list-style: none;
@@ -328,7 +321,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .header-nav__list a::before {
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: rgba(255, 255, 255, 0.25);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -434,7 +427,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   width: 48px;
   height: 45px;
   line-height: 45px;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: 'Raleway', sans-serif;
   
   text-transform: uppercase;
   letter-spacing: 0.4rem;
@@ -493,7 +486,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 @media only screen and (max-width: 1600px) {
   .header-logo {
     left: 60px;
-
   }
 
   .header-menu-toggle {
@@ -524,6 +516,24 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     right: 25px;
     top: 30px;
   }
+
+  h1{
+    font-size: 20pt !important;
+  }
+
+  h2 {
+    font-size: 15pt !important;
+  }
+
+  h3 {
+    font-size: 14pt !important;
+  }
+
+  p {
+    font-size: 11pt !important;
+    font-family: 'Raleway', sans-serif;
+  }
+
 }
 @media only screen and (max-width: 500px) {
   .header-menu-toggle::before {
@@ -982,7 +992,7 @@ a{
 
 .footer-contact {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .our_partners_area .book_now_aera {
@@ -1104,6 +1114,17 @@ section{
   text-align: left;
   text-transform: uppercase;
   margin-left: 17%;
+  -webkit-animation-delay: 150ms;
+  animation-delay: 150ms;
+  visibility: visible;
+}
+
+.main-home{
+  margin-top: 20vh;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+ margin-left: 10%;
   -webkit-animation-delay: 150ms;
   animation-delay: 150ms;
   visibility: visible;
@@ -1295,21 +1316,21 @@ iframe{
 
  
 
-   #contatti .maps iframe{
-     width: 100%;
-     height: 450px;
-   }
- }
-
-@media (min-width: 768px) {
-
- 
-
-  #contatti .maps iframe{
-    width: 100%;
-    height: 850px;
+  .main-h{
+    width: 90vw !important;
+    margin-top: 20vh;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 7%;
+    -webkit-animation-delay: 150ms;
+    animation-delay: 150ms;
+    visibility: visible;
   }
-}
+  #banner-text{
+     width: 90vw !important;
+  }
+ }
 
 
 .mt-30{
@@ -1363,17 +1384,6 @@ iframe{
 .bigpixi-footer-social{
   margin-top:40px;
 }
-/*End Edit-css*/
-/*--------------------------------------------------*/
-
-
-
-
-
-
-/*------------------------------------
-16.about_page_css_start
-------------------------------------*/
 
 /* .about_text{color:#e07525;} */
 
@@ -1561,15 +1571,10 @@ margin-bottom: 15px;}
 }
 
 .pr_90 {
-    padding-right: 40px;
+  padding-right: 40px;
 }
 .button-left {
   padding: 18px 30px !important;
-}
-
-.main-h {
-  line-height: 40px;
-  text-align: left;
 }
 
 p.banner-text.wow.fadeInUp.main-h3 {
@@ -1701,4 +1706,31 @@ img.filter-img{
 
 #banner-text{
   height: 45vh;
+}
+
+
+.wrapper	h1 {
+  color: #fff;
+  font-size: 92px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to right,#fff 10%, #ffaa00 50%, #f5f9fc 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+	padding-left: 0;
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
 }
