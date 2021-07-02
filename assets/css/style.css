@@ -225,7 +225,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding: 0;
   width: 175px;
   max-width: 30vw;
-  left: 110px;
+  left: 9%;
   top: 3rem;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -815,7 +815,6 @@ margin-top: 45px; }
 
 .about_bottom_h{
   padding-right: 15px; 
-  text-transform: capitalize;
   margin-top: 15px;
 }
 .mt-50{
@@ -1042,8 +1041,8 @@ position: relative;
    }
 
 .clip-polygon_left {
-   background-color: #fff !important;
-  background: url(../images/what-if.jpg) right top no-repeat;
+  background-color: #fff !important;
+  background: url(../images/network.png) right top no-repeat;
   background-size: cover;
 }
 
